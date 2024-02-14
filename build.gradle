@@ -205,4 +205,6 @@ publishing {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+    //compileJava.options.fork = true
+    //compileJava.options.forkOptions.executable = '/Users/12012/.gradle/jdks/eclipse_adoptium-17-amd64-windows/jdk-17.0.10+7'
 }

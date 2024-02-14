@@ -18,8 +18,7 @@ import net.rjm.tutorialmod.item.ModItems;
 import org.slf4j.Logger;
 
 @Mod(net.rjm.tutorialmod.TutorialMod.MODID)
-public class TutorialMod
-{
+public class TutorialMod {
     public static final String MODID = "tutorialmod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
